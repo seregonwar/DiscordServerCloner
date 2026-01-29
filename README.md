@@ -3,13 +3,29 @@
 
 An application that allows you to easily clone a Discord server, including roles, categories, text channels, voice channels, and messages.
 
-
 ---
 
 ## Preview
 ![video preview](https://github.com/user-attachments/assets/6e558e11-bd05-4ab6-83d6-2c1d2b61e9f2)
 ---
 Thanks to @Aadiwrth for the preview.
+
+---
+
+## ⚠️ IMPORTANT: Anti-Virus / False Positives
+
+> **PLEASE READ BEFORE DOWNLOADING**
+
+If your antivirus (Windows Defender, Chrome, etc.) flags this application as malicious/virus, **it is a False Positive**.
+
+This usually happens because the application is compiled using **PyInstaller**. Antivirus software often flags software created with PyInstaller that hasn't been digitally signed (which costs money) as a potential threat.
+
+**🚫 PLEASE DO NOT OPEN GITHUB ISSUES REGARDING VIRUS DETECTIONS.**
+
+These issues will be closed immediately. If you do not trust the pre-compiled executable, please follow **"Option 2: From source code"** below to run the clean Python code yourself.
+
+---
+
 ## Features
 
 - **Intuitive graphical interface**: Easy to use thanks to the modern user interface  
@@ -38,13 +54,13 @@ Thanks to @Aadiwrth for the preview.
 1. Download the latest version from the [Releases](https://github.com/seregonwar/DiscordServerCloner/releases) section  
 2. Extract the ZIP file  
 3. Run `Discord Server Cloner.exe`  
+   *(If Windows SmartScreen prevents the startup, click on "More info" -> "Run anyway")*
 
 ### Option 2: From source code
 1. Clone the repository:
    ```bash
-   git clone https://github.com/seregonwar/DiscordServerCloner.git
+   git clone [https://github.com/seregonwar/DiscordServerCloner.git](https://github.com/seregonwar/DiscordServerCloner.git)
    cd DiscordServerCloner
-   ```
 
 
 2. Install dependencies:
