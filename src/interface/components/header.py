@@ -2,6 +2,7 @@ import customtkinter as ctk
 from PIL import Image
 import os
 from src.interface.utils.language_manager import LanguageManager
+from src.utils.assets import get_asset_path
 
 class Header(ctk.CTkFrame):
     def __init__(self, master):
@@ -12,7 +13,7 @@ class Header(ctk.CTkFrame):
         
         # Discord Logo
         try:
-            image_path = os.path.join("src", "interface", "assets", "discord_logo.png")
+            image_path = get_asset_path("src/interface/assets/discord_logo.png")
             self.logo = ctk.CTkImage(
                 light_image=Image.open(image_path),
                 dark_image=Image.open(image_path),

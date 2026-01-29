@@ -1,0 +1,26 @@
+[project]
+name = "discord-server-cloner"
+version = "2.0.0"
+description = "A powerful tool to clone Discord servers"
+authors = ["SeregonWar"]
+
+[project.entrypoint]
+module = "main"
+function = "main"
+
+[runtime]
+mode = "cpython"
+python_version = "3.11"
+prefer_security = false
+prefer_compatibility = true
+prefer_size = true
+fallback_enabled = true
+fallback_to = "cpython"
+
+[security]
+sandbox = { enabled = false, mode = "permissive" }
+
+[dependencies]
+sources = ["requirements.txt"]
+excluded = []
+resolver = "pip"

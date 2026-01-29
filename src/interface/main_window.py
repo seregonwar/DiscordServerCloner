@@ -17,6 +17,8 @@ from src.interface.utils.settings_manager import SettingsManager
 from src.interface.styles.colors import Colors
 from src.interface.utils.version import CURRENT_VERSION, get_latest_version_sync, is_newer
 
+from src.utils.assets import get_asset_path
+
 class MainWindow(ctk.CTk):
     def __init__(self):
         super().__init__()
@@ -72,7 +74,7 @@ class MainWindow(ctk.CTk):
         self.accent_color = Colors.ACCENT
         
         # Icona dell'applicazione
-        icon_path = os.path.join("src", "interface", "assets", "discord_logo.png")
+        icon_path = get_asset_path("src/interface/assets/discord_logo.png")
         if os.path.exists(icon_path):
        
             pass

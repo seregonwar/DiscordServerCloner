@@ -21,13 +21,9 @@ class LanguageManager:
         """Carica le traduzioni dai file JSON"""
         self._translations = {}
         
-        # Determina il percorso base dell'applicazione (funziona sia in modalità di sviluppo che compilata)
-        if getattr(sys, 'frozen', False):
-            # Se l'app è compilata con PyInstaller
-            base_path = sys._MEIPASS
-        else:
-            # In modalità di sviluppo
-            base_path = os.path.dirname(os.path.dirname(os.path.dirname(os.path.dirname(__file__))))
+        # Determina il percorso base dell'applicazione
+        # In Blacksmith (bundled) e in sviluppo, la struttura delle directory è preservata
+        base_path = os.path.dirname(os.path.dirname(os.path.dirname(os.path.dirname(__file__))))
         
         language_dir = os.path.join(base_path, "src", "interface", "language")
         
