@@ -904,7 +904,10 @@ class GuildInput(ctk.CTkFrame):
         connector = None
         try:
             # Creiamo un connector sicuro per evitare memory leak
-            connector = aiohttp.TCPConnector(force_close=True)
+            import ssl
+            import certifi
+            ssl_context = ssl.create_default_context(cafile=certifi.where())
+            connector = aiohttp.TCPConnector(ssl=ssl_context, force_close=True)
             
             # Prepariamo l'header per le richieste API - assicuriamoci che il token sia nel formato corretto
             if not token.startswith("Bot ") and not token.startswith("Bearer "):
@@ -1202,7 +1205,10 @@ class GuildInput(ctk.CTkFrame):
         self._debug_log(f"Creazione nuovo server: {guild_name}", "INFO")
         
         try:
-            connector = aiohttp.TCPConnector(force_close=True)
+            import ssl
+            import certifi
+            ssl_context = ssl.create_default_context(cafile=certifi.where())
+            connector = aiohttp.TCPConnector(ssl=ssl_context, force_close=True)
             
 
             api_url = "https://discord.com/api/v9/guilds"

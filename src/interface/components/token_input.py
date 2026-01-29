@@ -243,12 +243,18 @@ class TokenInput(ctk.CTkFrame):
         finally:
             # Chiudiamo l'event loop
             loop.close()
-    
+
     async def _verify_token_async(self, token):
         """Verifica il token in modo asincrono usando solo HTTP"""
         try:
-            # Creiamo un connector sicuro per evitare memory leak
-            connector = aiohttp.TCPConnector(force_close=True)
+            import ssl
+            import certifi
+            
+            # Create SSL context using certifi's CA bundle
+            ssl_context = ssl.create_default_context(cafile=certifi.where())
+            
+            # Creiamo un connector sicuro per evitare memory leak e usando il bundle CA corretto
+            connector = aiohttp.TCPConnector(ssl=ssl_context, force_close=True)
             
             # URL delle API Discord per ottenere i server dell'utente
             api_url = "https://discord.com/api/v10/users/@me/guilds"
