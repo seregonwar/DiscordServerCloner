@@ -20,7 +20,7 @@ VSVersionInfo(
         StringStruct(u'FileVersion', u'3.0.0'),
         StringStruct(u'InternalName', u'Discord Server Manager'),
         StringStruct(u'LegalCopyright', u'Copyright (c) 2026 Aadiwrth & Seregon '),
-        StringStruct(u'OriginalFilename', u'Discord Server Manger.exe'),
+        StringStruct(u'OriginalFilename', u'Discord Server Manager.exe'),
         StringStruct(u'ProductName', u'Discord Server Manager'),
         StringStruct(u'ProductVersion', u'3.0.0')])
       ]), 

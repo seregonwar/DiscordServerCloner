@@ -6,7 +6,7 @@ from typing import Optional
 CURRENT_VERSION = "3.0.0"
 
 GITHUB_RELEASES_LATEST = (
-    "https://api.github.com/repos/Aadiwrth/Discord-Server-Manger/releases/latest"
+    "https://api.github.com/repos/seregonwar/DiscordServerManager/releases/latest"
 )
 
 

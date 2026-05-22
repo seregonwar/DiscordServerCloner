@@ -110,7 +110,7 @@ async def main(page: ft.Page):
                         color=ft.colors.BLACK,
                     ),
                     actions=[
-                        ft.TextButton("Update Now", on_click=lambda _: page.launch_url("https://github.com/Aadiwrth/Discord-Server-Manger/releases")),
+                        ft.TextButton("Update Now", on_click=lambda _: page.launch_url("https://github.com/seregonwar/DiscordServerManager/releases")),
                         ft.TextButton("Ignore", on_click=close_banner),
                     ],
                 )

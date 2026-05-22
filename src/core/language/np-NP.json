@@ -1,8 +1,8 @@
 {
     "app": {
-        "title": "Discord Server Manger",
+        "title": "Discord Server Manager",
         "subtitle": "Afno Discord server sajilai clone garnu hos",
-        "about_description": "Discord Server Manger ek application ho, jasle tapai lai Discord server ko structure, jastai roles, channels ra messages sajilai clone garna dinchha. Yo server migration ra backup sajilo banaunda ko lagi banayeko ho."
+        "about_description": "Discord Server Manager ek application ho, jasle tapai lai Discord server ko structure, jastai roles, channels ra messages sajilai clone garna dinchha. Yo server migration ra backup sajilo banaunda ko lagi banayeko ho."
     },
     "settings": {
         "title": "Settings",

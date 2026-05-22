@@ -1,8 +1,8 @@
 {
     "app": {
-        "title": "Discord Server Manger",
+        "title": "Discord Server Manager",
         "subtitle": "Clona facilmente il tuo server Discord",
-        "about_description": "Discord Server Manger è un'applicazione che permette di clonare facilmente la struttura di un server Discord, inclusi ruoli, canali e messaggi. Creato per semplificare la migrazione o il backup dei server Discord."
+        "about_description": "Discord Server Manager è un'applicazione che permette di clonare facilmente la struttura di un server Discord, inclusi ruoli, canali e messaggi. Creato per semplificare la migrazione o il backup dei server Discord."
     },
     "settings": {
         "title": "Impostazioni",

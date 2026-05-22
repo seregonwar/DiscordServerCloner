@@ -1,5 +1,5 @@
 # Discord Server Manager
-![Github All Releases](https://img.shields.io/github/downloads/Aadiwrth/Discord-Server-Manger/total.svg)
+![Github All Releases](https://img.shields.io/github/downloads/seregonwar/DiscordServerManager/total.svg)
 ![Version](https://img.shields.io/badge/version-3.0.0-blue)
 ![License](https://img.shields.io/badge/license-Apache--2.0-green)
 
@@ -51,15 +51,15 @@ If you do not trust the binary, please follow the **"Run from Source"** instruct
 ## 🛠️ Installation
 
 ### Option 1: Executable (Recommended)
-1. Download the latest version from [Releases](https://github.com/Aadiwrth/Discord-Server-Manger/releases).
+1. Download the latest version from [Releases](https://github.com/seregonwar/DiscordServerManager/releases).
 2. Extract the archive and run `Discord Server Manager.exe`.
    *(If Windows SmartScreen appears, click "More info" -> "Run anyway")*
 
 ### Option 2: Run from Source
 1. **Clone the Repo:**
    ```bash
-   git clone https://github.com/Aadiwrth/Discord-Server-Manger.git
-   cd Discord-Server-Manger
+   git clone https://github.com/seregonwar/DiscordServerManager.git
+   cd DiscordServerManager
    ```
 2. **Setup Environment:**
    ```bash

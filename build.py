@@ -31,7 +31,7 @@ VSVersionInfo(
         StringStruct(u'FileVersion', u'{version_str}'),
         StringStruct(u'InternalName', u'Discord Server Manager'),
         StringStruct(u'LegalCopyright', u'Copyright (c) 2026 Aadiwrth & Seregon '),
-        StringStruct(u'OriginalFilename', u'Discord Server Manger.exe'),
+        StringStruct(u'OriginalFilename', u'Discord Server Manager.exe'),
         StringStruct(u'ProductName', u'Discord Server Manager'),
         StringStruct(u'ProductVersion', u'{version_str}')])
       ]), 
@@ -45,16 +45,16 @@ VSVersionInfo(
 
 def build():
     """
-    Builds the Discord Server Manger into a standalone EXE.
+    Builds the Discord Server Manager into a standalone EXE.
     """
     print("====================================================")
-    print("   Discord Server Manger - Build System (V3)     ")
+    print("   Discord Server Manager - Build System (V3)     ")
     print("====================================================")
     
     # 1. Configuration
-    app_name = "Discord Server Manger"
+    app_name = "Discord Server Manager"
     main_script = "main.py"
-    dist_zip_name = "Discord_Server_Manger"
+    dist_zip_name = "Discord_Server_Manager"
     
     # 2. Sync Dependencies
     print("\n[1/5] Syncing dependencies with requirements.txt...")

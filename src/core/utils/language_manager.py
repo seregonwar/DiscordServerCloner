@@ -63,7 +63,7 @@ class LanguageManager:
             print("No language files found, using hardcoded English")
             self._translations["en-US"] = {
                 "app": {
-                    "title": "Discord Server Manger",
+                    "title": "Discord Server Manager",
                     "subtitle": "Clone servers with ease"
                 }
             }

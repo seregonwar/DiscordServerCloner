@@ -1,8 +1,8 @@
 {
     "app": {
-        "title": "Discord Server Manger",
+        "title": "Discord Server Manager",
         "subtitle": "Clonez facilement votre serveur Discord",
-        "about_description": "Discord Server Manger est une application qui vous permet de cloner facilement un serveur Discord, y compris les rôles, les salons et les messages. Créée pour simplifier la migration ou la sauvegarde de serveurs Discord."
+        "about_description": "Discord Server Manager est une application qui vous permet de cloner facilement un serveur Discord, y compris les rôles, les salons et les messages. Créée pour simplifier la migration ou la sauvegarde de serveurs Discord."
     },
     "settings": {
         "title": "Paramètres",

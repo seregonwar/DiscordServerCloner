@@ -44,7 +44,7 @@ class LoginView(ft.Container):
                     padding=30
                 )
             ),
-            ft.TextButton("Where do I find my token?", on_click=lambda _: self.main_page.launch_url("https://github.com/Aadiwrth/Discord-Server-Manger/wiki/How-to-get-token")),
+            ft.TextButton("Where do I find my token?", on_click=lambda _: self.main_page.launch_url("https://github.com/seregonwar/DiscordServerManager/wiki/How-to-get-token")),
         ], horizontal_alignment="center", alignment="center")
 
     async def verify_token(self, e):

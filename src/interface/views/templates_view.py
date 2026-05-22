@@ -215,7 +215,7 @@ class TemplatesView(ft.Container):
         self.template_list.controls.append(loading_bar)
         self.main_page.update()
         
-        GITHUB_API = "https://api.github.com/repos/Aadiwrth/Discord-Server-Manger/contents/community_templates"
+        GITHUB_API = "https://api.github.com/repos/seregonwar/DiscordServerManager/contents/community_templates"
         headers = {
             "User-Agent": "Discord-Management-Suite-V3",
             "Accept": "application/vnd.github.v3+json"

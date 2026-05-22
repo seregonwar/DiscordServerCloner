@@ -11,7 +11,7 @@ class AboutView(ft.Container):
             ft.Container(
                 content=ft.Column([
                     ft.Icon(ft.icons.INFO_ROUNDED, size=80, color=ft.colors.BLUE_400),
-                    ft.Text("Discord Server Manger", size=32, weight="bold"),
+                    ft.Text("Discord Server Manager", size=32, weight="bold"),
                     ft.Text(f"Version {CURRENT_VERSION}", color="grey500"),
                 ], horizontal_alignment="center"),
                 width=float("inf"),
