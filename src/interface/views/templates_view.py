@@ -61,7 +61,7 @@ class TemplatesView(ft.Container):
                     ft.ElevatedButton(
                         "Submit Template",
                         icon=ft.icons.PUBLISH,
-                        on_click=lambda _: self.main_page.launch_url("https://github.com/DiscordServerCloner/tree/main/community_templates"),
+                        on_click=lambda _: self.main_page.launch_url("https://github.com/DiscordServerManager/tree/main/community_templates"),
                         style=ft.ButtonStyle(color=ft.colors.AMBER_400)
                     ),
                     ft.ElevatedButton(
