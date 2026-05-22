@@ -109,3 +109,9 @@ Contributions are welcome! Please feel free to open issues or submit pull reques
 Distributed under the **Apache-2.0 License**. See `LICENSE` for more information.
 
 **Disclaimer:** This tool is for **educational purposes only**. The authors are not responsible for any misuse of this software or violations of Discord's Terms of Service.
+
+## ⭐ Star History
+
+If you find this project useful, please consider giving it a star on GitHub!
+
+[![Star History Chart](https://api.star-history.com/svg?repos=seregonwar/DiscordServerManager&type=Date)](https://star-history.com/#seregonwar/DiscordServerManager&Date)
