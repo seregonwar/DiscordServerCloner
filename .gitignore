@@ -1,0 +1,17 @@
+# Python cache
+__pycache__/
+*.pyc
+
+# Virtual environment
+.venv/
+build/
+dist/
+# Config (local settings)
+src/interface/config/
+logs/debug_log_20250830_191531.txt
+logs/debug_log_20250830_223810.txt
+*.spec
+*.zip
+logs/
+*_log.txt
+snapshots/

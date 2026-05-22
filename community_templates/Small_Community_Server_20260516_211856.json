@@ -1,0 +1,687 @@
+{
+    "metadata": {
+        "captured_at": "2026-05-16T21:18:56.913346",
+        "guild_name": "Small Community Server",
+        "guild_id": "1505231765701136434",
+        "version": "1.0",
+        "description": "A small community server for people to hang out, play! Comes with permissions setup, roles, staff-only channels!!!!"
+    },
+    "data": {
+        "name": "Small Community Server",
+        "icon": null,
+        "roles": [
+            {
+                "id": "1505231765701136434",
+                "name": "@everyone",
+                "description": null,
+                "permissions": "2248329584430657",
+                "position": 0,
+                "color": 0,
+                "colors": {
+                    "primary_color": 0,
+                    "secondary_color": null,
+                    "tertiary_color": null
+                },
+                "hoist": false,
+                "managed": false,
+                "mentionable": false,
+                "icon": null,
+                "unicode_emoji": null,
+                "flags": 0
+            },
+            {
+                "id": "1505231765701136435",
+                "name": "[Member]",
+                "description": null,
+                "permissions": "104320577",
+                "position": 1,
+                "color": 3066993,
+                "colors": {
+                    "primary_color": 3066993,
+                    "secondary_color": null,
+                    "tertiary_color": null
+                },
+                "hoist": true,
+                "managed": false,
+                "mentionable": false,
+                "icon": null,
+                "unicode_emoji": null,
+                "flags": 0
+            },
+            {
+                "id": "1505231765701136436",
+                "name": "[OG]",
+                "description": null,
+                "permissions": "104320577",
+                "position": 2,
+                "color": 10181046,
+                "colors": {
+                    "primary_color": 10181046,
+                    "secondary_color": null,
+                    "tertiary_color": null
+                },
+                "hoist": true,
+                "managed": false,
+                "mentionable": false,
+                "icon": null,
+                "unicode_emoji": null,
+                "flags": 0
+            },
+            {
+                "id": "1505231765701136437",
+                "name": "[FRIEND]",
+                "description": null,
+                "permissions": "104320577",
+                "position": 3,
+                "color": 15844367,
+                "colors": {
+                    "primary_color": 15844367,
+                    "secondary_color": null,
+                    "tertiary_color": null
+                },
+                "hoist": true,
+                "managed": false,
+                "mentionable": false,
+                "icon": null,
+                "unicode_emoji": null,
+                "flags": 0
+            },
+            {
+                "id": "1505231765701136438",
+                "name": "[MOD]",
+                "description": null,
+                "permissions": "104320585",
+                "position": 4,
+                "color": 3447003,
+                "colors": {
+                    "primary_color": 3447003,
+                    "secondary_color": null,
+                    "tertiary_color": null
+                },
+                "hoist": true,
+                "managed": false,
+                "mentionable": false,
+                "icon": null,
+                "unicode_emoji": null,
+                "flags": 0
+            },
+            {
+                "id": "1505231765701136439",
+                "name": "[OWNER]",
+                "description": null,
+                "permissions": "104320585",
+                "position": 5,
+                "color": 16711680,
+                "colors": {
+                    "primary_color": 16711680,
+                    "secondary_color": null,
+                    "tertiary_color": null
+                },
+                "hoist": true,
+                "managed": false,
+                "mentionable": false,
+                "icon": null,
+                "unicode_emoji": null,
+                "flags": 0
+            }
+        ],
+        "channels": [
+            {
+                "id": "1505231766225686649",
+                "type": 4,
+                "flags": 0,
+                "guild_id": "1505231765701136434",
+                "name": "[DELETE]",
+                "parent_id": null,
+                "position": 0,
+                "permission_overwrites": [
+                    {
+                        "id": "1505231765701136434",
+                        "type": 0,
+                        "allow": "0",
+                        "deny": "7168"
+                    }
+                ]
+            },
+            {
+                "id": "1505231766225686650",
+                "type": 2,
+                "last_message_id": null,
+                "flags": 0,
+                "guild_id": "1505231765701136434",
+                "name": "thank you for using my",
+                "parent_id": "1505231766225686649",
+                "rate_limit_per_user": 0,
+                "bitrate": 64000,
+                "user_limit": 0,
+                "rtc_region": null,
+                "position": 1,
+                "permission_overwrites": [
+                    {
+                        "id": "1505231765701136434",
+                        "type": 0,
+                        "allow": "0",
+                        "deny": "7168"
+                    }
+                ],
+                "nsfw": false
+            },
+            {
+                "id": "1505231766225686651",
+                "type": 2,
+                "last_message_id": null,
+                "flags": 0,
+                "guild_id": "1505231765701136434",
+                "name": "template! please like it",
+                "parent_id": "1505231766225686649",
+                "rate_limit_per_user": 0,
+                "bitrate": 64000,
+                "user_limit": 0,
+                "rtc_region": null,
+                "position": 2,
+                "permission_overwrites": [
+                    {
+                        "id": "1505231765701136434",
+                        "type": 0,
+                        "allow": "0",
+                        "deny": "7168"
+                    }
+                ],
+                "nsfw": false
+            },
+            {
+                "id": "1505231766225686652",
+                "type": 2,
+                "last_message_id": null,
+                "flags": 0,
+                "guild_id": "1505231765701136434",
+                "name": "and share it <3",
+                "parent_id": "1505231766225686649",
+                "rate_limit_per_user": 0,
+                "bitrate": 64000,
+                "user_limit": 0,
+                "rtc_region": null,
+                "position": 3,
+                "permission_overwrites": [
+                    {
+                        "id": "1505231765701136434",
+                        "type": 0,
+                        "allow": "0",
+                        "deny": "7168"
+                    }
+                ],
+                "nsfw": false
+            },
+            {
+                "id": "1505231766225686653",
+                "type": 4,
+                "flags": 0,
+                "guild_id": "1505231765701136434",
+                "name": "\u23bc\u23bc\u23bc\u23bc\u23bc\u23bc\u23bc\u23bc\u23bc\u23bc\u23bc\u23bc\u23bc\u23bc\u23bc\u23bc\u23bc\u23bc\u23bc\u23bc\u23bc\u23bc\u23bc\u23bc\u23bc\u23bc\u23bc\u23bc\u23bc\u23bc\u23bc\u23bc\u23bc\u23bc\u23bc\u23bc\u23bc\u23bc\u23bc\u23bc\u23bc\u23bc\u23bc\u23bc\u23bc\u23bc\u23bc\u23bc\u23bc\u23bc\u23bc\u23bc\u23bc\u23bc\u23bc\u23bc\u23bc\u23bc\u23bc\u23bc\u23bc\u23bc\u23bc",
+                "parent_id": null,
+                "position": 4,
+                "permission_overwrites": []
+            },
+            {
+                "id": "1505231766225686654",
+                "type": 4,
+                "flags": 0,
+                "guild_id": "1505231765701136434",
+                "name": "\ud83d\udcdcImportant",
+                "parent_id": null,
+                "position": 5,
+                "permission_overwrites": [
+                    {
+                        "id": "1505231765701136434",
+                        "type": 0,
+                        "allow": "1024",
+                        "deny": "6144"
+                    }
+                ]
+            },
+            {
+                "id": "1505231766225686655",
+                "type": 0,
+                "last_message_id": null,
+                "flags": 0,
+                "guild_id": "1505231765701136434",
+                "name": "\ud83d\udce3announcement",
+                "parent_id": "1505231766225686654",
+                "rate_limit_per_user": 0,
+                "topic": null,
+                "position": 6,
+                "permission_overwrites": [
+                    {
+                        "id": "1505231765701136434",
+                        "type": 0,
+                        "allow": "1024",
+                        "deny": "6144"
+                    }
+                ],
+                "nsfw": false
+            },
+            {
+                "id": "1505231766225686656",
+                "type": 0,
+                "last_message_id": null,
+                "flags": 0,
+                "guild_id": "1505231765701136434",
+                "name": "\ud83d\udcd1rules",
+                "parent_id": "1505231766225686654",
+                "rate_limit_per_user": 0,
+                "topic": null,
+                "position": 7,
+                "permission_overwrites": [
+                    {
+                        "id": "1505231765701136434",
+                        "type": 0,
+                        "allow": "1024",
+                        "deny": "6144"
+                    }
+                ],
+                "nsfw": false
+            },
+            {
+                "id": "1505231766225686657",
+                "type": 0,
+                "last_message_id": null,
+                "flags": 0,
+                "guild_id": "1505231765701136434",
+                "name": "\ud83d\udd2eportal",
+                "parent_id": "1505231766225686654",
+                "rate_limit_per_user": 0,
+                "topic": null,
+                "position": 8,
+                "permission_overwrites": [
+                    {
+                        "id": "1505231765701136434",
+                        "type": 0,
+                        "allow": "1024",
+                        "deny": "6144"
+                    }
+                ],
+                "nsfw": false
+            },
+            {
+                "id": "1505231766225686658",
+                "type": 4,
+                "flags": 0,
+                "guild_id": "1505231765701136434",
+                "name": "\u23bc\u23bc\u23bc\u23bc\u23bc\u23bc\u23bc\u23bc\u23bc\u23bc\u23bc\u23bc\u23bc\u23bc\u23bc\u23bc\u23bc\u23bc\u23bc\u23bc\u23bc\u23bc\u23bc\u23bc\u23bc\u23bc\u23bc\u23bc\u23bc\u23bc\u23bc\u23bc\u23bc\u23bc\u23bc\u23bc\u23bc\u23bc\u23bc\u23bc\u23bc\u23bc\u23bc\u23bc\u23bc\u23bc\u23bc\u23bc\u23bc\u23bc\u23bc\u23bc\u23bc\u23bc\u23bc\u23bc\u23bc\u23bc\u23bc\u23bc\u23bc\u23bc\u23bc",
+                "parent_id": null,
+                "position": 9,
+                "permission_overwrites": []
+            },
+            {
+                "id": "1505231766401581066",
+                "type": 4,
+                "flags": 0,
+                "guild_id": "1505231765701136434",
+                "name": "\ud83d\udcacChatting",
+                "parent_id": null,
+                "position": 10,
+                "permission_overwrites": []
+            },
+            {
+                "id": "1505231766401581067",
+                "type": 0,
+                "last_message_id": null,
+                "flags": 0,
+                "guild_id": "1505231765701136434",
+                "name": "\ud83d\udcacgeneral-chat",
+                "parent_id": "1505231766401581066",
+                "rate_limit_per_user": 0,
+                "topic": null,
+                "position": 11,
+                "permission_overwrites": [],
+                "nsfw": false
+            },
+            {
+                "id": "1505231766401581068",
+                "type": 0,
+                "last_message_id": null,
+                "flags": 0,
+                "guild_id": "1505231765701136434",
+                "name": "\ud83e\udd16bot-commands",
+                "parent_id": "1505231766401581066",
+                "rate_limit_per_user": 0,
+                "topic": null,
+                "position": 12,
+                "permission_overwrites": [],
+                "nsfw": false
+            },
+            {
+                "id": "1505231766401581069",
+                "type": 0,
+                "last_message_id": null,
+                "flags": 0,
+                "guild_id": "1505231765701136434",
+                "name": "\ud83d\udcf7pictures",
+                "parent_id": "1505231766401581066",
+                "rate_limit_per_user": 0,
+                "topic": null,
+                "position": 13,
+                "permission_overwrites": [],
+                "nsfw": false
+            },
+            {
+                "id": "1505231766401581070",
+                "type": 0,
+                "last_message_id": null,
+                "flags": 0,
+                "guild_id": "1505231765701136434",
+                "name": "\ud83c\udfb5music-requests",
+                "parent_id": "1505231766401581066",
+                "rate_limit_per_user": 0,
+                "topic": null,
+                "position": 14,
+                "permission_overwrites": [],
+                "nsfw": false
+            },
+            {
+                "id": "1505231766401581071",
+                "type": 4,
+                "flags": 0,
+                "guild_id": "1505231765701136434",
+                "name": "\u23bc\u23bc\u23bc\u23bc\u23bc\u23bc\u23bc\u23bc\u23bc\u23bc\u23bc\u23bc\u23bc\u23bc\u23bc\u23bc\u23bc\u23bc\u23bc\u23bc\u23bc\u23bc\u23bc\u23bc\u23bc\u23bc\u23bc\u23bc\u23bc\u23bc\u23bc\u23bc\u23bc\u23bc\u23bc\u23bc\u23bc\u23bc\u23bc\u23bc\u23bc\u23bc\u23bc\u23bc\u23bc\u23bc\u23bc\u23bc\u23bc\u23bc\u23bc\u23bc\u23bc\u23bc\u23bc\u23bc\u23bc\u23bc\u23bc\u23bc\u23bc\u23bc\u23bc",
+                "parent_id": null,
+                "position": 15,
+                "permission_overwrites": []
+            },
+            {
+                "id": "1505231766401581072",
+                "type": 4,
+                "flags": 0,
+                "guild_id": "1505231765701136434",
+                "name": "\ud83c\udfa4Voice channels",
+                "parent_id": null,
+                "position": 16,
+                "permission_overwrites": []
+            },
+            {
+                "id": "1505231766401581073",
+                "type": 2,
+                "last_message_id": null,
+                "flags": 0,
+                "guild_id": "1505231765701136434",
+                "name": "\ud83d\udde3 [MAIN]",
+                "parent_id": "1505231766401581072",
+                "rate_limit_per_user": 0,
+                "bitrate": 64000,
+                "user_limit": 0,
+                "rtc_region": null,
+                "position": 17,
+                "permission_overwrites": [],
+                "nsfw": false
+            },
+            {
+                "id": "1505231766401581074",
+                "type": 2,
+                "last_message_id": null,
+                "flags": 0,
+                "guild_id": "1505231765701136434",
+                "name": "\ud83d\udd0a [MUSIC]",
+                "parent_id": "1505231766401581072",
+                "rate_limit_per_user": 0,
+                "bitrate": 64000,
+                "user_limit": 0,
+                "rtc_region": null,
+                "position": 18,
+                "permission_overwrites": [],
+                "nsfw": false
+            },
+            {
+                "id": "1505231766401581075",
+                "type": 4,
+                "flags": 0,
+                "guild_id": "1505231765701136434",
+                "name": "\u23bc\u23bc\u23bc\u23bc\u23bc\u23bc\u23bc\u23bc\u23bc\u23bc\u23bc\u23bc\u23bc\u23bc\u23bc\u23bc\u23bc\u23bc\u23bc\u23bc\u23bc\u23bc\u23bc\u23bc\u23bc\u23bc\u23bc\u23bc\u23bc\u23bc\u23bc\u23bc\u23bc\u23bc\u23bc\u23bc\u23bc\u23bc\u23bc\u23bc\u23bc\u23bc\u23bc\u23bc\u23bc\u23bc\u23bc\u23bc\u23bc\u23bc\u23bc\u23bc\u23bc\u23bc\u23bc\u23bc\u23bc\u23bc\u23bc\u23bc\u23bc\u23bc\u23bc",
+                "parent_id": null,
+                "position": 19,
+                "permission_overwrites": []
+            },
+            {
+                "id": "1505231766548386012",
+                "type": 4,
+                "flags": 0,
+                "guild_id": "1505231765701136434",
+                "name": "\ud83d\udc4f Community",
+                "parent_id": null,
+                "position": 20,
+                "permission_overwrites": [
+                    {
+                        "id": "1505231765701136434",
+                        "type": 0,
+                        "allow": "1024",
+                        "deny": "2048"
+                    }
+                ]
+            },
+            {
+                "id": "1505231766548386013",
+                "type": 0,
+                "last_message_id": null,
+                "flags": 0,
+                "guild_id": "1505231765701136434",
+                "name": "\ud83d\udcf7videos",
+                "parent_id": "1505231766548386012",
+                "rate_limit_per_user": 0,
+                "topic": null,
+                "position": 21,
+                "permission_overwrites": [
+                    {
+                        "id": "1505231765701136434",
+                        "type": 0,
+                        "allow": "1024",
+                        "deny": "2048"
+                    }
+                ],
+                "nsfw": false
+            },
+            {
+                "id": "1505231766548386014",
+                "type": 0,
+                "last_message_id": null,
+                "flags": 0,
+                "guild_id": "1505231765701136434",
+                "name": "\ud83c\udf89giveaways",
+                "parent_id": "1505231766548386012",
+                "rate_limit_per_user": 0,
+                "topic": null,
+                "position": 22,
+                "permission_overwrites": [
+                    {
+                        "id": "1505231765701136434",
+                        "type": 0,
+                        "allow": "1024",
+                        "deny": "2048"
+                    }
+                ],
+                "nsfw": false
+            },
+            {
+                "id": "1505231766548386015",
+                "type": 4,
+                "flags": 0,
+                "guild_id": "1505231765701136434",
+                "name": "\u23bc\u23bc\u23bc\u23bc\u23bc\u23bc\u23bc\u23bc\u23bc\u23bc\u23bc\u23bc\u23bc\u23bc\u23bc\u23bc\u23bc\u23bc\u23bc\u23bc\u23bc\u23bc\u23bc\u23bc\u23bc\u23bc\u23bc\u23bc\u23bc\u23bc\u23bc\u23bc\u23bc\u23bc\u23bc\u23bc\u23bc\u23bc\u23bc\u23bc\u23bc\u23bc\u23bc\u23bc\u23bc\u23bc\u23bc\u23bc\u23bc\u23bc\u23bc\u23bc\u23bc\u23bc\u23bc\u23bc\u23bc\u23bc\u23bc\u23bc\u23bc\u23bc\u23bc",
+                "parent_id": null,
+                "position": 23,
+                "permission_overwrites": []
+            },
+            {
+                "id": "1505231766548386016",
+                "type": 4,
+                "flags": 0,
+                "guild_id": "1505231765701136434",
+                "name": "\ud83d\udc69\ud83d\udcbcStaff Only",
+                "parent_id": null,
+                "position": 24,
+                "permission_overwrites": [
+                    {
+                        "id": "1505231765701136434",
+                        "type": 0,
+                        "allow": "0",
+                        "deny": "1049600"
+                    },
+                    {
+                        "id": "1505231765701136438",
+                        "type": 0,
+                        "allow": "1049600",
+                        "deny": "0"
+                    },
+                    {
+                        "id": "1505231765701136439",
+                        "type": 0,
+                        "allow": "1049600",
+                        "deny": "0"
+                    }
+                ]
+            },
+            {
+                "id": "1505231766548386017",
+                "type": 0,
+                "last_message_id": null,
+                "flags": 0,
+                "guild_id": "1505231765701136434",
+                "name": "staff-rules",
+                "parent_id": "1505231766548386016",
+                "rate_limit_per_user": 0,
+                "topic": null,
+                "position": 25,
+                "permission_overwrites": [
+                    {
+                        "id": "1505231765701136434",
+                        "type": 0,
+                        "allow": "0",
+                        "deny": "1049600"
+                    },
+                    {
+                        "id": "1505231765701136438",
+                        "type": 0,
+                        "allow": "1049600",
+                        "deny": "2048"
+                    },
+                    {
+                        "id": "1505231765701136439",
+                        "type": 0,
+                        "allow": "1049600",
+                        "deny": "0"
+                    }
+                ],
+                "nsfw": false
+            },
+            {
+                "id": "1505231766548386018",
+                "type": 0,
+                "last_message_id": null,
+                "flags": 0,
+                "guild_id": "1505231765701136434",
+                "name": "staff-general",
+                "parent_id": "1505231766548386016",
+                "rate_limit_per_user": 0,
+                "topic": null,
+                "position": 26,
+                "permission_overwrites": [
+                    {
+                        "id": "1505231765701136434",
+                        "type": 0,
+                        "allow": "0",
+                        "deny": "1049600"
+                    },
+                    {
+                        "id": "1505231765701136438",
+                        "type": 0,
+                        "allow": "1049600",
+                        "deny": "0"
+                    },
+                    {
+                        "id": "1505231765701136439",
+                        "type": 0,
+                        "allow": "1049600",
+                        "deny": "0"
+                    }
+                ],
+                "nsfw": false
+            },
+            {
+                "id": "1505231766548386019",
+                "type": 0,
+                "last_message_id": null,
+                "flags": 0,
+                "guild_id": "1505231765701136434",
+                "name": "bot-logs",
+                "parent_id": "1505231766548386016",
+                "rate_limit_per_user": 0,
+                "topic": null,
+                "position": 27,
+                "permission_overwrites": [
+                    {
+                        "id": "1505231765701136434",
+                        "type": 0,
+                        "allow": "0",
+                        "deny": "1049600"
+                    },
+                    {
+                        "id": "1505231765701136438",
+                        "type": 0,
+                        "allow": "1049600",
+                        "deny": "0"
+                    },
+                    {
+                        "id": "1505231765701136439",
+                        "type": 0,
+                        "allow": "1049600",
+                        "deny": "0"
+                    }
+                ],
+                "nsfw": false
+            },
+            {
+                "id": "1505231766548386020",
+                "type": 2,
+                "last_message_id": null,
+                "flags": 0,
+                "guild_id": "1505231765701136434",
+                "name": "Staff call",
+                "parent_id": "1505231766548386016",
+                "rate_limit_per_user": 0,
+                "bitrate": 64000,
+                "user_limit": 0,
+                "rtc_region": null,
+                "position": 28,
+                "permission_overwrites": [
+                    {
+                        "id": "1505231765701136434",
+                        "type": 0,
+                        "allow": "0",
+                        "deny": "1049600"
+                    },
+                    {
+                        "id": "1505231765701136438",
+                        "type": 0,
+                        "allow": "1049600",
+                        "deny": "0"
+                    },
+                    {
+                        "id": "1505231765701136439",
+                        "type": 0,
+                        "allow": "1049600",
+                        "deny": "0"
+                    }
+                ],
+                "nsfw": false
+            },
+            {
+                "id": "1505231766548386021",
+                "type": 4,
+                "flags": 0,
+                "guild_id": "1505231765701136434",
+                "name": "\u23bc\u23bc\u23bc\u23bc\u23bc\u23bc\u23bc\u23bc\u23bc\u23bc\u23bc\u23bc\u23bc\u23bc\u23bc\u23bc\u23bc\u23bc\u23bc\u23bc\u23bc\u23bc\u23bc\u23bc\u23bc\u23bc\u23bc\u23bc\u23bc\u23bc\u23bc\u23bc\u23bc\u23bc\u23bc\u23bc\u23bc\u23bc\u23bc\u23bc\u23bc\u23bc\u23bc\u23bc\u23bc\u23bc\u23bc\u23bc\u23bc\u23bc\u23bc\u23bc\u23bc\u23bc\u23bc\u23bc\u23bc\u23bc\u23bc\u23bc\u23bc\u23bc\u23bc",
+                "parent_id": null,
+                "position": 29,
+                "permission_overwrites": []
+            }
+        ]
+    }
+}

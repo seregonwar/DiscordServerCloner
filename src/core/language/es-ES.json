@@ -1,0 +1,205 @@
+{
+    "app": {
+        "title": "Discord Server Manger",
+        "subtitle": "Clona fácilmente tu servidor de Discord",
+        "about_description": "Discord Server Manger es una aplicación que permite clonar fácilmente la estructura de un servidor de Discord, incluyendo roles, canales y mensajes. Creado para simplificar la migración o el respaldo de servidores de Discord."
+    },
+    "settings": {
+        "title": "Configuración",
+        "appearance": {
+            "title": "Apariencia",
+            "themes": {
+                "dark": "Oscuro",
+                "light": "Claro",
+                "system": "Sistema"
+            }
+        },
+        "language": {
+            "title": "Idioma",
+            "languages": {
+                "it-IT": "Italiano",
+                "en-US": "English",
+                "es-ES": "Español",
+                "fr-FR": "Français",
+                "np-NP": "Nepali"
+            }
+        },
+        "debug": {
+            "title": "Debug",
+            "description": "El modo debug muestra:\n• Registros detallados\n• Tiempos de ejecución\n• Errores específicos\n• Estadísticas de clonación",
+            "enable": "Modo Debug",
+            "save_logs": "Guardar registros en archivo",
+            "show_timing": "Mostrar tiempos de ejecución",
+            "show_api": "Mostrar detalles de API"
+        },
+        "features": {
+            "title": "Características",
+            "advanced_explorer": "Modo Avanzado",
+            "advanced_mode_description": "Habilita el acceso directo a servidores para navegar canales y ver contenido completo"
+        },
+        "info": {
+            "title": "Información",
+            "version": "Versión: {version}"
+        }
+    },
+    "input": {
+        "token": {
+            "title": "Token de Discord",
+            "placeholder": "Introduce tu token de Discord",
+            "help": "¿Cómo obtener el token?",
+            "help_text": "Cómo obtener tu token de Discord:\n\n1. Abre Discord en el navegador\n2. Presiona F12 para abrir las herramientas de desarrollo\n3. Ve a la sección Network\n4. Busca una solicitud que comience con 'science'\n5. En los encabezados (Headers) busca 'authorization'\n\n⚠️ Atención: ¡Nunca compartas tu token con nadie!",
+            "error_empty": "Introduce el token de Discord",
+            "error_invalid": "Token de Discord no válido",
+            "verify_button": "Verificar",
+            "verifying": "Verificando..."
+        },
+        "guild": {
+            "source": {
+                "title": "Servidor Origen",
+                "placeholder": "ID del servidor a copiar",
+                "error_empty": "Introduce el ID del servidor origen"
+            },
+            "destination": {
+                "title": "Servidor Destino",
+                "placeholder": "ID del servidor donde copiar",
+                "error_empty": "Introduce el ID del servidor destino"
+            },
+            "dropdown_placeholder": "Selecciona un servidor",
+            "clone_button": "Iniciar Clonación",
+            "reset_button": "Borrar",
+            "options_title": "Opciones de Clonación",
+            "option_roles": "Clonar roles",
+            "option_michelleneous": "Clonar Nombre e icono",
+            "option_categories": "Clonar categorías",
+            "option_text_channels": "Clonar canales de texto",
+            "option_voice_channels": "Clonar canales de voz",
+            "option_messages": "Clonar mensajes",
+            "option_messages_limit": "Límite de mensajes:",
+            "error_invalid_limit": "El límite de mensajes debe ser un número positivo",
+            "stats_title": "Estadísticas de Clonación",
+            "stats_roles": "Roles creados:",
+            "stats_channels": "Canales creados:",
+            "stats_messages": "Mensajes copiados:",
+            "stats_errors": "Errores detectados:",
+            "stats_time": "Tiempo transcurrido:",
+            "error_same_ids": "Los servidores origen y destino no pueden ser iguales",
+            "error_invalid_id": "Los IDs de servidor deben ser números",
+            "advanced_explorer_button": "Explorador Avanzado",
+            "explorer_title": "Explorador - {name}",
+            "channel_details": "Detalles del Canal",
+            "channels_no_category": "Sin categoría",
+            "view_messages": "Ver mensajes",
+            "hide_messages": "Ocultar mensajes",
+            "select_guild": "Seleccionar Servidor",
+            "search_title": "Seleccionar Servidor",
+            "channels_list": "Canales",
+            "members_list": "Miembros",
+            "create_server_error": "Error al crear el servidor"
+        }
+    },
+    "status": {
+        "ready": "Listo",
+        "cloning": "Clonación en curso...",
+        "success": "¡Clonación completada!",
+        "error": "Error durante la clonación",
+        "connecting": "Conectando...",
+        "connected": "Conectado como: {user}",
+        "loading": "Cargando...",
+        "update_available": "Actualización disponible: v{version}",
+        "connection_error": "Error de conexión: {error}",
+        "guilds_loaded": "Cargados {count} servidores",
+        "source_selected": "Servidor origen seleccionado: {name}",
+        "destination_selected": "Servidor destino seleccionado: {name}",
+        "advanced_mode_enabled": "Modo avanzado activado",
+        "advanced_mode_disabled": "Modo avanzado desactivado",
+        "advanced_mode_auto_opened": "Modo avanzado abierto automáticamente al inicio"
+    },
+    "advanced": {
+        "view_messages": "Ver mensajes",
+        "select_guild": "Seleccionar Servidor"
+    },
+    "advanced_explorer": {
+        "title": "Explorador Avanzado",
+        "server_info": "Información del Servidor",
+        "channels": "Canales",
+        "messages": "Mensajes",
+        "loading": "Cargando...",
+        "no_messages": "No se encontraron mensajes",
+        "message_details": "Detalles del Mensaje",
+        "attachments": "Archivos Adjuntos",
+        "embeds": "Incrustaciones",
+        "reactions": "Reacciones",
+        "author": "Autor",
+        "timestamp": "Marca de Tiempo",
+        "content": "Contenido",
+        "voice_message": "Mensaje de Voz",
+        "image": "Imagen",
+        "video": "Video",
+        "file": "Archivo",
+        "download": "Descargar",
+        "play": "Reproducir",
+        "pause": "Pausar",
+        "view_full": "Ver Completo",
+        "copy_link": "Copiar Enlace",
+        "message_count": "{count} mensajes",
+        "load_more": "Cargar Más",
+        "search_placeholder": "Buscar mensajes...",
+        "filter_by_user": "Filtrar por usuario",
+        "filter_by_date": "Filtrar por fecha",
+        "export_messages": "Exportar Mensajes",
+        "refresh": "Actualizar"
+    },
+    "debug_window": {
+        "title": "Consola Debug",
+        "buttons": {
+            "clear": "Limpiar Registro",
+            "save": "Guardar Registro"
+        },
+        "stats": {
+            "start_time": "Inicio",
+            "elapsed_time": "Tiempo transcurrido",
+            "roles": "Roles",
+            "channels": "Canales",
+            "errors": "Errores"
+        }
+    },
+    "logs": {
+        "server": {
+            "start": "Iniciando modificación del servidor...",
+            "icon_updated": "Icono del servidor actualizado",
+            "error": "Error modificando servidor: {error}"
+        },
+        "roles": {
+            "start_delete": "Eliminando roles existentes...",
+            "deleted": "Rol eliminado: {role}",
+            "delete_error": "Error eliminando rol {role}: {error}",
+            "start_create": "Creando nuevos roles...",
+            "created": "Rol creado ({current}/{total}): {role}",
+            "create_error": "Error creando rol {role}: {error}"
+        },
+        "channels": {
+            "start_delete": "Eliminando canales existentes...",
+            "deleted": "Canal eliminado: {channel}",
+            "delete_error": "Error eliminando canal {channel}: {error}",
+            "start_create": "Creando canales...",
+            "category_created": "Categoría creada: {category}",
+            "category_error": "Error creando categoría {category}: {error}",
+            "text_created": "Canal de texto creado ({current}/{total}): {channel}",
+            "text_error": "Error creando canal de texto {channel}: {error}",
+            "voice_created": "Canal de voz creado ({current}/{total}): {channel}",
+            "voice_error": "Error creando canal de voz {channel}: {error}"
+        },
+        "clone": {
+            "connected": "Conectado como: {user}",
+            "initializing": "Inicializando clonación...",
+            "server_not_found": "Servidores no encontrados",
+            "completed": "Clonación completada en {time:.2f} segundos",
+            "error": "Error durante la clonación: {error}",
+            "connection_error": "Error de conexión: {error}"
+        },
+        "debug": {
+            "file_enabled": "Registro en archivo activado",
+            "file_disabled": "Registro en archivo desactivado"
+        }
+    }
+}

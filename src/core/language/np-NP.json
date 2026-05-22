@@ -1,0 +1,205 @@
+{
+    "app": {
+        "title": "Discord Server Manger",
+        "subtitle": "Afno Discord server sajilai clone garnu hos",
+        "about_description": "Discord Server Manger ek application ho, jasle tapai lai Discord server ko structure, jastai roles, channels ra messages sajilai clone garna dinchha. Yo server migration ra backup sajilo banaunda ko lagi banayeko ho."
+    },
+    "settings": {
+        "title": "Settings",
+        "appearance": {
+            "title": "Dekhauna",
+            "themes": {
+                "dark": "kallo",
+                "light": "ailen ho bhanne setto ;>",
+                "system": "System"
+            }
+        },
+        "language": {
+            "title": "Bhasa",
+            "languages": {
+                "it-IT": "Italiano",
+                "en-US": "English",
+                "es-ES": "Español",
+                "fr-FR": "Français",
+                "np-NP": "Nepali"
+            }
+        },
+        "debug": {
+            "title": "Debug",
+            "description": "Debug mode le dekhaunchha:\n• Detailed logs\n• Execution time\n• Specific errors\n• Cloning statistics",
+            "enable": "Debug Mode",
+            "save_logs": "Logs file ma save garnu hos",
+            "show_timing": "Execution time dekhaunu hos",
+            "show_api": "API details dekhaunu hos"
+        },
+        "features": {
+            "title": "सुविधाहरू",
+            "advanced_explorer": "उन्नत मोड",
+            "advanced_mode_description": "च्यानलहरू नेभिगेट गर्न र पूर्ण सामग्री हेर्न प्रत्यक्ष सर्भर पहुँच सक्षम गर्नुहोस्"
+        },
+        "info": {
+            "title": "Information",
+            "version": "Version: {version}"
+        }
+    },
+    "input": {
+        "token": {
+            "title": "Discord Token",
+            "placeholder": "Afno Discord token halnu hos",
+            "help": "Token kasari paune?",
+            "help_text": "Afno Discord token paune tarika:\n\n1. Browser ma Discord kholnu hos\n2. F12 dabayera developer tools kholnu hos\n3. Network tab ma jaanu hos\n4. 'science' bata suru bhako request hernu hos\n5. Headers section ma 'authorization' hernu hos\n\n⚠️ Warning: Afno token kahile pani arko sanga share nagarnu hos!",
+            "error_empty": "Afno Discord token halnu hos",
+            "error_invalid": "Invalid Discord token",
+            "verify_button": "Verify garnu hos",
+            "verifying": "Verifying..."
+        },
+        "guild": {
+            "source": {
+                "title": "Kun Server ko Clone Garne ?",
+                "placeholder": "Copy garnu parne server ID",
+                "error_empty": "jun server clone garne ho, tesko server ID halnu hos"
+            },
+            "destination": {
+                "title": "Kun server ma Clone Garne ?",
+                "placeholder": "Jahaa copy garnu parcha server ID",
+                "error_empty": "jun afno server clone garne ho, tesko server ID halnu hos"
+            },
+            "dropdown_placeholder": "Ek server chhannu hos",
+            "clone_button": "Cloning start garnu hos",
+            "reset_button": "Clear garnu hos",
+            "options_title": "Cloning Options",
+            "option_roles": "Roles clone garnu hos",
+            "option_michelleneous": "Name ra icon clone garnu hos",
+            "option_categories": "Categories clone garnu hos",
+            "option_text_channels": "Text channels clone garnu hos",
+            "option_voice_channels": "Voice channels clone garnu hos",
+            "option_messages": "Messages clone garnu hos",
+            "option_messages_limit": "Messages limit:",
+            "error_invalid_limit": "Messages limit positive number hunu parcha",
+            "stats_title": "Cloning Statistics",
+            "stats_roles": "Banae ka roles:",
+            "stats_channels": "Banae ka channels:",
+            "stats_messages": "Copied messages:",
+            "stats_errors": "Detected errors:",
+            "stats_time": "Elapsed time:",
+            "error_same_ids": "Source ra destination server same hunu sakdaina",
+            "error_invalid_id": "Server IDs number hunu parcha",
+            "advanced_explorer_button": "Advanced Explorer",
+            "explorer_title": "Explorer - {name}",
+            "channel_details": "Channel Details",
+            "channels_no_category": "Koi category chaina",
+            "view_messages": "Messages herne",
+            "hide_messages": "Messages lukaaune",
+            "select_guild": "Server select garne",
+            "search_title": "Server select garne",
+            "channels_list": "Channels",
+            "members_list": "Members",
+            "create_server_error": "Server create garna error"
+        }
+    },
+    "status": {
+        "ready": "Ready",
+        "cloning": "Cloning in progress...",
+        "success": "Cloning complete!",
+        "error": "Error during cloning",
+        "connecting": "Connecting...",
+        "connected": "Connected as: {user}",
+        "loading": "लोड हुँदै...",
+        "update_available": "अपडेट उपलब्ध: v{version}",
+        "connection_error": "Connection error: {error}",
+        "guilds_loaded": "{count} servers loaded",
+        "source_selected": "Source server selected: {name}",
+        "destination_selected": "Destination server selected: {name}",
+        "advanced_mode_enabled": "उन्नत मोड सक्षम गरियो",
+        "advanced_mode_disabled": "उन्नत मोड असक्षम गरियो",
+        "advanced_mode_auto_opened": "स्टार्टअपमा उन्नत मोड स्वचालित रूपमा खोलियो"
+    },
+    "advanced": {
+        "view_messages": "सन्देशहरू हेर्नुहोस्",
+        "select_guild": "सर्भर चयन गर्नुहोस्"
+    },
+    "advanced_explorer": {
+        "title": "उन्नत एक्सप्लोरर",
+        "server_info": "सर्भर जानकारी",
+        "channels": "च्यानलहरू",
+        "messages": "सन्देशहरू",
+        "loading": "लोड हुँदै...",
+        "no_messages": "कुनै सन्देश फेला परेन",
+        "message_details": "सन्देश विवरण",
+        "attachments": "संलग्नकहरू",
+        "embeds": "एम्बेडहरू",
+        "reactions": "प्रतिक्रियाहरू",
+        "author": "लेखक",
+        "timestamp": "समय छाप",
+        "content": "सामग्री",
+        "voice_message": "आवाज सन्देश",
+        "image": "छवि",
+        "video": "भिडियो",
+        "file": "फाइल",
+        "download": "डाउनलोड",
+        "play": "खेल्नुहोस्",
+        "pause": "रोक्नुहोस्",
+        "view_full": "पूर्ण हेर्नुहोस्",
+        "copy_link": "लिङ्क प्रतिलिपि गर्नुहोस्",
+        "message_count": "{count} सन्देशहरू",
+        "load_more": "थप लोड गर्नुहोस्",
+        "search_placeholder": "सन्देशहरू खोज्नुहोस्...",
+        "filter_by_user": "प्रयोगकर्ता द्वारा फिल्टर गर्नुहोस्",
+        "filter_by_date": "मिति द्वारा फिल्टर गर्नुहोस्",
+        "export_messages": "सन्देशहरू निर्यात गर्नुहोस्",
+        "refresh": "ताजा गर्नुहोस्"
+    },
+    "debug_window": {
+        "title": "Debug Console",
+        "buttons": {
+            "clear": "Clear Log",
+            "save": "Save Log"
+        },
+        "stats": {
+            "start_time": "Start",
+            "elapsed_time": "Elapsed time",
+            "roles": "Roles",
+            "channels": "Channels",
+            "errors": "Errors"
+        }
+    },
+    "logs": {
+        "server": {
+            "start": "Server modification start bhayo...",
+            "icon_updated": "Server icon update bhayo",
+            "error": "Server modification ma error: {error}"
+        },
+        "roles": {
+            "start_delete": "Existing roles delete gardai cha...",
+            "deleted": "Role delete bhayo: {role}",
+            "delete_error": "Role {role} delete garna error: {error}",
+            "start_create": "New roles create gardai cha...",
+            "created": "Role create bhayo ({current}/{total}): {role}",
+            "create_error": "Role {role} create garna error: {error}"
+        },
+        "channels": {
+            "start_delete": "Existing channels delete gardai cha...",
+            "deleted": "Channel delete bhayo: {channel}",
+            "delete_error": "Channel {channel} delete garna error: {error}",
+            "start_create": "Channels create gardai cha...",
+            "category_created": "Category create bhayo: {category}",
+            "category_error": "Category {category} create garna error: {error}",
+            "text_created": "Text channel create bhayo ({current}/{total}): {channel}",
+            "text_error": "Text channel {channel} create garna error: {error}",
+            "voice_created": "Voice channel create bhayo ({current}/{total}): {channel}",
+            "voice_error": "Voice channel {channel} create garna error: {error}"
+        },
+        "clone": {
+            "connected": "Connected as: {user}",
+            "initializing": "Cloning initialize bhayo...",
+            "server_not_found": "Servers not found",
+            "completed": "Cloning complete bhayo {time:.2f} seconds ma",
+            "error": "Error during cloning: {error}",
+            "connection_error": "Connection error: {error}"
+        },
+        "debug": {
+            "file_enabled": "File logging enabled",
+            "file_disabled": "File logging disabled"
+        }
+    }
+}

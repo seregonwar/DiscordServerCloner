@@ -1,0 +1,17 @@
+{
+    "appearance": {
+        "theme": "dark"
+    },
+    "language": {
+        "current": "en-US"
+    },
+    "features": {
+        "advanced_explorer": true
+    },
+    "debug": {
+        "enabled": false,
+        "save_logs": false,
+        "show_timing": false,
+        "show_api": false
+    }
+}
